@@ -1,0 +1,102 @@
+<html>
+    <head>
+       <h1> Student Admission Form </h1>
+       <from> 
+    </head>
+    <body>
+    <div style="background-image:url('POWDERBLUE.jpg');"> 
+    <table align="center" cellpadding="10">
+    <tr>
+        <td>FIRST NAME</td>
+        <td><input type="text" name="FIRST_NAME" maxlength="30"/> 
+        </td>
+    </tr>
+    <tr>
+        <td>LAST NAME</td>
+        <td><input type="text" name="LAST_NAME" maxlength="30"/>
+        </td>
+    </tr>
+    <tr>
+        <label for="BIRTHDAY"> BIRTHDAY:</label>
+        <input type="DATE" id="BIRTHDAY" name="BIRTHDAY">
+    </tr>
+    <tr>
+        <td>EMAIL ID</td>
+        <td><input type="text" name="EMAIL_ID" maxlength="100"/> </td>
+    </tr>
+    <tr>
+        <td> MOBILE NUMBER</td>
+        <td>  
+        <input type="text" name="MOBILE_NUMBER" maxlength="10"/>
+        </td>
+    </tr>
+    <tr>
+        <td> GENDER </td>
+        <td> 
+    Male <input type="radio" name="Gender" value="Male"/>
+    Female <input type="radio" name="Gender" value="Female"/>
+        </td>
+    </tr>
+    <tr>
+        <td> ADDRESS <br/><br/><br/></td>
+        <td><textarea name="Address" rows="4" cols="30"></textarea></td>
+    </tr>
+    <tr>
+        <td> CITY</td>
+        <td><input type="text" name="City" maxlength="30"/> 
+        </td>
+    </tr>
+    <tr> 
+        <td> PIN CODE</td>
+        <td><input type="text" name="Pin_code" maxlength="6"/> 
+        </td>
+    </tr>
+    <tr>
+        <td> STATE </td>
+        <td><input type="text" name="State" maxlength="30"/> 
+        </td>
+    </tr>
+    <tr>
+        <td> COUNTRY </td>
+        <td><input type="text" name="Country" value="India" readonly="readonly"/> </td>
+    </tr>
+    <tr>
+        <td> HOBBIES <br/><br/><br/></td>
+        <td>
+Drawing <input type="checkbox" name="Hobby_Drawing" value="Drawing"/>
+Singing <input type="checkbox" name="Hobby_Singing" value="Singing"/>
+Dancing <input type="checkbox" name="Hobby_Dancing" value="Dancing"/>
+Sketching <input type="checkbox" name="Hobby_sketching" value="Sketching"/>
+     <br/>
+Others <input type="checkbox" name="Hobby_Other" value="Other">
+       <input type="text" name="Other_Hobby" maxlength="30"/>
+        </td>
+    </tr>
+    <tr>
+        <td> QUALIFICATION<br/><br/><br/><br/><br/><br/><br/> </td>
+        <td>
+         <table>
+   <tr>
+       <td align="Center"><b> S1.No. </b></td>
+       <td align="Center"><b> Examination </b></td>
+       <td align="Center"><b> Board </b></td>
+       <td align="Center"><b> Percentage </b></td>
+       <td align="Center"><b> YrOfPassing </b></td>
+    </tr>
+    <tr>
+        <td> 1 </td>
+        <td> Class X </td>
+        <td><input type="text" name="ClassX_Board" maxlength="30"/></td>
+        <td><input type="text" name="ClassX_Percentage" maxlength="30"/></td>
+        <td><input type="text" name="ClassX_YrOfPassing" maxlength="30"/></td>
+    </tr>
+    <tr> 
+        <td Colspan="2" align="Center">
+        <input type="Submit" value="Submit">
+        <input type="Reset" value="Reset">
+        </td>
+    </tr>
+</table>
+</from>
+    </body>
+</html>
